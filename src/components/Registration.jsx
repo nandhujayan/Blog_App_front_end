@@ -21,6 +21,9 @@ export const Registration = () => {
     const readValue = () => {
         console.log(inputField)
         alert("Regsitration successfull");
+        navigate("/Login")
+
+
     }
     return (
         <div>

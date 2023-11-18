@@ -26,6 +26,14 @@ export const Login = () => {
         alert("Login successfull")
 
     }
+    const readValue1 = () => {
+        console.log(inputField)
+       
+            navigate("/Registration")
+            
+      
+
+    }
     return (
         <div>
 
@@ -52,7 +60,11 @@ export const Login = () => {
 
                                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                                         <button onClick={readValue} className="btn btn-success">Submit</button>
+                                        <button onClick={readValue1} className="btn btn-warning">Register</button>
+                                  
                                     </div>
+                                    
+                              
                               
                                 </div>
                                 <div class="card-footer text-body-secondary">

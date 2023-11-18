@@ -74,9 +74,7 @@ export const MyPost = () => {
                             })}
                         </div>
                     </div>
-
                 </div>
-                
             </div>
         </div>
 
